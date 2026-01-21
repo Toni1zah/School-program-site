@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<style>
+h1 {text-align:center}
+p {text-align: center;}
+div {text-align: center;}
+
+</style>
+</head>
+<body style="background-image: url();">
+
+<img src="Icon.png" alt="Icon" width="200" height="150" style="display: block; margin: 0 auto;">
+
+<div id="grad1" style="height:15vh; width: 100vw; display: block; margin: 0 auto; text-align: center;">
+    <h2 style="padding-top: 5%; font-family:Verdana, Geneva, Tahoma, sans-serif">Σχετικά με εμάς</h2>
+
+    <p style="font-size: smaller; font-family:Verdana, Geneva, Tahoma, sans-serif"">Είμαστε μία περιβαλλοντικα ενσυνείδητη εταιρία η οποία δημιουργεί <br> αξεσουάρ από ανακυκλωμένα υλικά,όπως για παραδειγμα παλιά <br> παντελόνια,ρούχα κλπ. </b></p>
+</div>
+
+<div id="grad1" style="height:200vh; width: 100vw; display: block; margin: 0 auto; text-align: center;">
+    <h2 style="padding-top: 5%; font-family:Verdana, Geneva, Tahoma, sans-serif">Τα προϊόντα μας</h2>
+    
+    <div onmouseenter="Hover(this)" onmouseleave="HoverLeave(this)" style="transition: 0.1s; padding-top:5%; border-radius: 10px; background-color: rgb(255, 255, 255); height:  150px; width:150px; margin-left: auto; margin-right: auto;">
+         <img src="Icon.png" alt="Image" width="90%" height="70%">
+
+         <h4 style="font-family:Verdana, Geneva, Tahoma, sans-serif"">4.99 €</h4>
+    </div>
+
+    <div onmouseenter="Hover(this)" onmouseleave="HoverLeave(this)" style="transition: 0.1s; padding-top:5%; border-radius: 10px; background-color: rgb(255, 255, 255); height:  150px; width:150px; margin-left: auto; margin-right: auto;">
+         <img src="Icon.png" alt="Image" width="90%" height="70%">
+
+         <h4 style="font-family:Verdana, Geneva, Tahoma, sans-serif"">4.99 €</h4>
+    </div>
+    
+</div>
+
+<a style="display: block; text-align:center;" href="">Επικοινωνήστε μαζί μας</a>
+
+<h4 style="text-align: center;">©️ 2ο Γυμνάσιο Κώ 2026-27</h4>
+
+<script>
+    function Hover(x) {
+        x.style.height = "200px";
+        x.style.width = "200px";
+    }
+
+     function HoverLeave(x) {
+        x.style.height = "150px";
+        x.style.width = "150px";
+    }
+</script>
+
+</body>
+</html>
+
